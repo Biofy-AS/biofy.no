@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <style>
+    .mark { fill: #15181D; }
+    @media (prefers-color-scheme: dark) {
+      .mark { fill: #F5F6F8; }
+    }
+  </style>
+  <defs>
+    <mask id="bmask">
+      <rect width="64" height="64" fill="white" />
+      <rect x="22" y="14" width="5" height="36" fill="black" rx="1" />
+      <circle cx="36" cy="38" r="10" fill="black" />
+      <circle cx="36" cy="38" r="4" fill="white" />
+    </mask>
+  </defs>
+  <path d="M32 4 L56 18 L56 46 L32 60 L8 46 L8 18 Z" class="mark" mask="url(#bmask)" />
+  <circle cx="36" cy="38" r="2" class="mark" />
+</svg>
